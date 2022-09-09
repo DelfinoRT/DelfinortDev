@@ -9,12 +9,14 @@
 </head>
 <body class="body">
 
-<!-- Sidebar/menu -->
 <nav class="sidebar red rose-collapse rose-top rose-large rose-padding" style="z-index:3;width:30vh;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="rose_close()" class="rose-button2 rose-hide-large rose-display-topleft" style="width:100%;font-size:22px;"></a>
 
   <div class="rose-container">
-    <div><br></div>
+  <div>
+    <br>
+    <br>
+  </div>
     <div class="picture1">&nbsp;</div>
 
      </div>
@@ -47,24 +49,20 @@
   </div>
 </nav>
 
-<!-- Top menu responsive -->
 <header class="rose-container rose-top rose-hide-large red2 rose-xlarge rose-padding">
   <a href="javascript:void(0)" onclick="rose_open()" class="rose-button"></a>
   <img src="/img/rose-logo01.png" style="width: 30px">
   <span>Red Rose</span>
 </header>
 
-<!-- Overlay effect when opening sidebar on small screens -->
 <div class="rose-overlay rose-hide-large" onclick="rose_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!-- !PAGE CONTENT! -->
 <div class="rose-main" style="margin-left:260px;margin-right:40px">
   <br>
   <br>
   <br>
   <h1 class="rose-xxxlarge rose-text-brown rose-container2"><b>Welcome!</b></h1>
 
-  <!-- Header -->
   <div class="rose-container2" style="margin-top:80px" id="showcase">
     <h1 class="rose-xxxlarge rose-text-brown"><b>What is the Red Rose?</b></h1>
     <hr style="width:50px;border:2px solid red" class="rose-round">
@@ -82,16 +80,7 @@
       at our forum.</p>
   </div>
 
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="rose-modal rose-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="rose-button rose-black rose-xxlarge rose-display-topright">×</span>
-    <div class="rose-modal-content rose-animate-zoom rose-center rose-transparent rose-padding-64">
-      <img id="img01" class="rose-image">
-      <p id="caption"></p>
-    </div>
-  </div>
 
-  <!-- Services -->
   <div class="rose-container2" id="services" style="margin-top:75px">
     <h1 class="rose-xxxlarge rose-text-brown"><b>What about the Rose Shields?</b></h1>
     <hr style="width:50px;border:2px solid red" class="rose-round">
@@ -140,110 +129,16 @@
     <p><b>Lorem ipsum</b>:</p>
   </div>
 
-  <div class="rose-row-padding rose-grayscale">
-    <div class="rose-col m4 rose-margin-bottom">
-      <div class="rose-light-grey">
-        <img src="/roseimages/team2.jpg" alt="John" style="width:100%">
-        <div class="rose-container">
-          <h3>Lorem</h3>
-          <p class="rose-opacity">CEO & Founder</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-      </div>
-    </div>
-    <div class="rose-col m4 rose-margin-bottom">
-      <div class="rose-light-grey">
-        <img src="/roseimages/team1.jpg" alt="Jane" style="width:100%">
-        <div class="rose-container">
-          <h3>Ipsum</h3>
-          <p class="rose-opacity">Lorem</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-      </div>
-    </div>
-    <div class="rose-col m4 rose-margin-bottom">
-      <div class="rose-light-grey">
-        <img src="/roseimages/team3.jpg" alt="Lorem" style="width:100%">
-        <div class="rose-container">
-          <h3>Dhai</h3>
-          <p class="rose-opacity">Khan</p>
-          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="rose-container2" id="packages" style="margin-top:75px">
     <h1 class="rose-xxxlarge rose-text-brownd"><b>Lorem.</b></h1>
     <hr style="width:50px;border:2px solid red" class="rose-round">
     <p> Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
   </div>
 
-  <div class="rose-row-padding">
-    <div class="rose-half rose-margin-bottom">
-      <ul class="rose-ul rose-light-grey rose-center">
-        <li class="rose-dark-grey rose-xlarge rose-padding-32">Ipsum</li>
-        <li class="rose-padding-16">Lorem</li>
-        <li class="rose-padding-16">Ipsum</li>
-        <li class="rose-padding-16">Lorem</li>
-        <li class="rose-padding-16">Ipsumt</li>
-        <li class="rose-padding-16">Lorem</li>
-        <li class="rose-padding-16">
-          <h2>123</h2>
-          <span class="rose-opacity">Lorem</span>
-        </li>
-        <li class="rose-light-grey rose-padding-24">
-          <button class="rose-button rose-white rose-padding-large rose-hover-black">Ergo</button>
-        </li>
-      </ul>
-    </div>
-        
-    <div class="rose-half">
-      <ul class="rose-ul rose-light-grey rose-center">
-        <li class="red rose-xlarge rose-padding-32">Eques</li>
-        <li class="rose-padding-16">Lorem</li>
-        <li class="rose-padding-16">Ipsum</li>
-        <li class="rose-padding-16">Lorem</li>
-        <li class="rose-padding-16">Ipsum</li>
-        <li class="rose-padding-16">Lorem</li>
-        <li class="rose-padding-16">
-          <h2>123</h2>
-          <span class="rose-opacity">Ipsum</span>
-        </li>
-        <li class="rose-light-grey rose-padding-24">
-          <button class="rose-button red rose-padding-large rose-hover-black">Aux</button>
-        </li>
-      </ul>
-    </div>
   </div>
-  
-  <!-- Contact -->
-  <div class="rose-container2" id="contact" style="margin-top:75px">
-    <h1 class="rose-xxxlarge rose-text-brown"><b>Contact.</b></h1>
-    <hr style="width:50px;border:2px solid red" class="rose-round">
-    <p>Lorem ipsum</p>
-    <form action="/action_page.php" target="_blank">
-      <div class="rose-section">
-        <label>Name</label>
-        <input class="rose-input rose-border" type="text" name="Name" required>
-      </div>
-      <div class="rose-section">
-        <label>Email</label>
-        <input class="rose-input rose-border" type="text" name="Email" required>
-      </div>
-      <div class="rose-section">
-        <label>Message</label>
-        <input class="rose-input rose-border" type="text" name="Message" required>
-      </div>
-      <button type="submit" class="rose-button rose-block rose-padding-large red rose-margin-bottom">Send Message</button>
-    </form>  
-  </div>
-
-<!-- End page content -->
 </div>
 
 <script>
-// Script to open and close sidebar
 function rose_open() {
   document.getElementById("mySidebar").style.display = "block";
   document.getElementById("myOverlay").style.display = "block";
@@ -252,14 +147,6 @@ function rose_open() {
 function rose_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
 }
 </script>
 
