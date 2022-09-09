@@ -2,14 +2,24 @@
 html{
     box-sizing:border-box;
     -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%;
-    background-color: #EADBC1;
+    -webkit-
 }
 body{
-    margin:0
+    margin:0;
+    background-image: url(/img/main-background1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 *,*:before,*:after{
     box-sizing:inherit
+}
+
+.body {
+    background-color: #613E28;
 }
 
 /* Logo Image */
@@ -36,12 +46,13 @@ a img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 90%;
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 a img:last-child {
-    display: none; 
+    display: none;
   }
   a:hover img:last-child {
     display: block;
@@ -54,13 +65,15 @@ a img:last-child {
     text-align: center;
   }
 
-  .fill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    background-repeat: no-repeat;
-}
+  ::-moz-selection { /* Code for Firefox */
+    color: rgb(229, 192, 163);
+    background: rgb(102, 28, 27);
+  }
+  
+  ::selection {
+    color: rgb(229, 192, 163);
+    background: rgb(102, 28, 27);
+  }
 
  article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{
     display:block
@@ -300,12 +313,11 @@ a{
 .rose-button2{
     background-image: url(/img/close.png);
     display:inline-block;
-    width: 50px;
-    height: 80px;
+    height: 63px;
     background-repeat: no-repeat;
     vertical-align:middle;
     overflow:hidden;
-    text-align:center;
+    text-align:left;
     cursor:pointer; 
 }
  .rose-btn:hover{
@@ -388,21 +400,22 @@ a{
     top:6px
 }
  .sidebar{
-    height:100%;
-    width:200px;
+    height:100vh;
     position:fixed!important;
+    background-color: #69040d;
+opacity: 0.8;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #69040d 28px ), repeating-linear-gradient( #c0080855, #c00808 );
+    margin: 10px;
+    border-radius: 6px;
+    padding: 0;
     z-index:1;
 }
- .bar-block .rose-dropdown-hover,.bar-block .rose-dropdown-click{
-    width:100%
-}
+
  .bar-block .rose-dropdown-hover .rose-dropdown-content,.bar-block .rose-dropdown-click .rose-dropdown-content{
     min-width:100%
 }
 
- .rose-main,#main{
-    transition:margin-left .4s
-}
+ 
  .rose-modal{
     z-index:3;
     display:none;
@@ -471,7 +484,8 @@ a{
  .rose-container:after,.rose-container:before,.rose-panel:after,.rose-panel:before,.rose-row:after,.rose-row:before,.rose-row-padding:after,.rose-row-padding:before, .rose-cell-row:before,.rose-cell-row:after,.rose-clear:after,.rose-clear:before,.rose-bar:before,.rose-bar:after{
     content:"";
     display:table;
-    clear:both
+    clear:both;
+    
 }
  .rose-col,.rose-half,.rose-third,.rose-twothird,.rose-threequarter,.rose-quarter{
     float:left;
@@ -688,8 +702,8 @@ a{
         display:none
     }
     .rose-main{
-        margin-left:0!important;
-        margin-right:0!important
+        margin-left:10vh!important;
+        margin-right:0!important;
     }
     .rose-auto{
         max-width:100%
@@ -715,12 +729,12 @@ a{
     left:0;
     right:0;
     bottom:0;
-    background-color:rgba(0,0,0,0.5);
+    background-color:rgba(0, 0, 0, 0.791);
     z-index:2
 }
  .rose-display-topleft{
     position:absolute;
-    left:40px;
+    left:12vh;
     top:0
 }
 .rose-display-topright{
@@ -807,7 +821,15 @@ a{
     padding:0 8px
 }
  .rose-container,.rose-panel{
-    padding:0.01em 16px
+    padding:0.01em 16px;
+    border-radius: 7px;
+    padding: 16px;
+}
+.rose-container2,.rose-panel{
+    padding:0.01em 16px;
+    background-color: #fee8bcb8;
+    border-radius: 7px;
+    margin: 20px;
 }
 .rose-panel{
     margin-top:16px;
@@ -1133,7 +1155,7 @@ a{
 }
  .rose-brown,.rose-hover-brown:hover{
     color:#fff!important;
-    background-color:#795548!important
+    background-color:#332019!important
 }
  .rose-cyan,.rose-hover-cyan:hover{
     color:#000!important;
@@ -1184,8 +1206,12 @@ a{
     background-color:#673ab7!important
 }
  .red,.rose-hover-red:hover{
-    background-image: url(/img/sidebar.png);
     border:none;
+    position: absolute;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     }
 
     .red2{
@@ -1254,7 +1280,7 @@ a{
     color:#87CEEB!important
 }
  .rose-text-brown,.rose-hover-text-brown:hover{
-    color:#795548!important
+    color:#392017!important
 }
  .rose-text-cyan,.rose-hover-text-cyan:hover{
     color:#00bcd4!important
