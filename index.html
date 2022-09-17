@@ -24,7 +24,7 @@
       </div>
       <div id="wrapper">
         <div class="openbtn" id="hamburguermenu" onclick="openNav()"></div>
-        <div class="logo"></div>
+        <div class="logo" id="logo"></div>
     </div>
 
       <div id="main">
@@ -135,13 +135,13 @@
         <p>&copy; Red Rose</p>
       </footer>
 
-    
 
       <script>
         function openNav() {
           document.getElementById("mySidebar").style.width = "250px";
           document.getElementById("mySidebar").style.display = "";
           document.getElementById("main").style.marginLeft = "250px";
+          document.getElementById("hamburguermenu").style.display = "none";
         }
 
         function closeNav() {
