@@ -11,13 +11,16 @@
     <body>
 
       <div id="mySidebar" class="sidebar">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
+          <a href="javascript:void(0)" class="button-close" onclick="closeNav()"></a>
+          <br>
+          <a class="buttom-top"></a>
           <a href="#" class="home-active"></a>
           <a href="#" class="history"></a>
           <a href="#" class="events"></a>
           <a href="#" class="gallery"></a>
           <a href="#" class="codex"></a>
           <a href="#" class="forum"></a>
+          <a class="buttom-bottom"></a>
       </div>
       <div id="wrapper">
         <div class="openbtn" id="hamburguermenu" onclick="openNav()"></div>
@@ -106,16 +109,22 @@
             Want to join Red Rose?
           </h2>
           <p>
-            We are a group/clan of players of Tibia MMORPG, one of the oldest and most 
-            successful massively multiplayer online role-playing games (MMORPG) created 
-            in Europe. In an MMORPG people from all over the world meet on a virtual 
-            playground to explore areas, solve tricky riddles and undertake heroic exploits. 
+            There are some things you need to know about the Red Rose: We have a long 
+            tradition in Tibia (founded 7th December 1998).
           </p>
           <p>
-            Red Rose is an ancient guild of Good, followers of Banor. We are peaceloving 
-            and try to uphold law and noble virtues, but like the rose we have sharp thorns, 
-            too! - Founded December 7th 1998 - - Proud winner of the first ever Tibian 
-            Football League.
+            We are old, wellknown and our history began at the dawn of Tibia’s Golden Age. We stand 
+            up for our beliefs, our Friends and Members. We are famous for our amazing festivals and 
+            loved for the good things that we do. To be a Rose is an honour! 
+          </p>
+          <p>
+            We are currently recruiting. If you are you must first read our <a href="http://redrose-guild.com/forum/viewtopic.php?f=2&t=61">codex</a> 
+            and then submit your application at our <a href="http://redrose-guild.com/forum/viewforum.php?f=3">joining board</a>.
+            
+          </p>
+          <p>
+            For more details and instructions on the application process, take a look at our forum topic 
+            <a href="http://redrose-guild.com/forum/viewtopic.php?t=4015">here</a>.
           </p>
         </div>
 
@@ -133,8 +142,6 @@
           document.getElementById("mySidebar").style.width = "250px";
           document.getElementById("mySidebar").style.display = "";
           document.getElementById("main").style.marginLeft = "250px";
-          document.getElementById("hamburguermenu").style.display = "none";
-          
         }
 
         function closeNav() {
