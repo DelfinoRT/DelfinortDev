@@ -3,15 +3,16 @@ html{
     color: rgb(69, 45, 13);;
 }
 body {
-  font-family: "Lato", sans-serif;
-  margin: 0;
-    background-image: url(/img/main-background1.png);
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: antiquewhite;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    cursor: url('/img/sword.png'),auto;
 }
 
 .sidebar {
@@ -21,11 +22,12 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-image: url(/img/sidebarbg.png);
+  background-image: url(/img/sidebarbg2.png);
   overflow-x: hidden;
   transition: 0.3s;
-  padding-top: 60px;
-  border-right: 4px solid rgb(202, 52, 14);
+  padding-top: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .sidebar a {
@@ -66,146 +68,162 @@ body {
 
 /* Navigation buttons - START */
 .home{
-    background: url("/img/home02.png") no-repeat;
-    height: 50px;
+    background: url("/img/button-home2.png") no-repeat;
+    height: 30px;
     background-size: contain;
-    margin-top: 15px;
-    padding: 10px;
+    margin-top: 0;
+    padding: 0;
+    border: none;
 }
+
 .home:hover {
-    background: url("/img/home01.png") no-repeat;
-    height: 52px;
-    background-size: contain;
-    margin-top: 15px;
-    padding: 10px;
+    background: url("/img/button-home.png") no-repeat;
 }
 
 .history{
-    background: url("/img/history02.png") no-repeat;
-    height: 50px;
+    background: url("/img/button-history2.png") no-repeat;
+    height: 30px;
     background-size: contain;
-    margin-top: 15px;
-    padding: 10px;
+    margin-top: 0;
+    padding: 0;
+    border: none;
   }
 
 .history:hover {
-    background: url("/img/history01.png") no-repeat;
-    height: 52px;
+    background: url("/img/button-history.png") no-repeat;
     background-size: contain;
-    margin-top: 15px;
-    padding: 10px;
+
 }
 
 .events{
-    background: url("/img/events02.png") no-repeat;
-    height: 50px;
+    background: url("/img/button-events2.png") no-repeat;
+    height: 30px;
     background-size: contain;
-    margin-top: 15px;
-    padding: 10px;
+    margin-top: 0;
+    padding: 0;
+    border: none;
   }
 
 .events:hover {
-    background: url("/img/events01.png") no-repeat;
-    height: 52px;
+    background: url("/img/button-events.png") no-repeat;
     background-size: contain;
-    margin-top: 15px;
-    padding: 10px;
 }
 
 .gallery{
-    background: url("/img/gallery02.png") no-repeat;
-    height: 50px;
+    background: url("/img/button-gallery2.png") no-repeat;
+    height: 30px;
     background-size: contain;
-    margin-top: 15px;
-    padding: 10px;
+    margin-top: 0;
+    padding: 0;
+    border: none;
   }
 
 .gallery:hover {
-    background: url("/img/gallery01.png") no-repeat;
-    height: 52px;
+    background: url("/img/button-gallery.png") no-repeat;
     background-size: contain;
-    margin-top: 15px;
-    padding: 10px;
 }
 
 .codex{
-    background: url("/img/codex02.png") no-repeat;
-    height: 50px;
+    background: url("/img/button-codex2.png") no-repeat;
+    height: 30px;
     background-size: contain;
-    margin-top: 15px;
-    padding: 10px;
+    margin-top: 0;
+    padding: 0;
+    border: none;;
   }
 
 .codex:hover {
-    background: url("/img/codex01.png") no-repeat;
-    height: 52px;
+    background: url("/img/button-codex.png") no-repeat;
     background-size: contain;
-    margin-top: 15px;
-    padding: 10px;
 }
 
 .forum{
-    background: url("/img/forum02.png") no-repeat;
-    height: 50px;
+    background: url("/img/button-forum2.png") no-repeat;
+    height: 30px;
     background-size: contain;
-    margin-top: 15px;
-    padding: 10px;
+    margin-top: 0;
+    padding: 0;
+    border: none;
   }
 
 .forum:hover {
-    background: url("/img/forum01.png") no-repeat;
-    height: 52px;
+    background: url("/img/button-forum.png") no-repeat;
     background-size: contain;
-    margin-top: 15px;
-    padding: 10px;
 }
+
+.button-close{
+    background: url("/img/button-close.png") no-repeat;
+    height: 30px;
+    background-size: contain;
+    margin-top: 0;
+    padding: 0;
+    border: none;
+}
+
+.buttom-top{
+    background: url("/img/button-top.png") no-repeat;
+    height: 30px;
+    background-size: contain;
+    margin-top: 0;
+    padding: 0;
+    border: none;
+  }
+
+.buttom-bottom{
+    background: url("/img/button-bottom.png") no-repeat;
+    height: 30px;
+    background-size: contain;
+    margin-top: 0;
+    padding: 0;
+    border: none;
+  }
     /* Active Buttons*/
     .home-active {
-        background: url("/img/home01.png") no-repeat;
-        height: 54px;
+        background: url("/img/button-home.png") no-repeat;
+        height: 30px;
         background-size: contain;
-        margin-top: 15px;
-        padding: 10px;
+        margin-top: 0;
+        padding: 0;
     }
      
     .history-active {
         background: url("/img/history01.png") no-repeat;
-        height: 52px;
+        height: 30px;
         background-size: contain;
-        margin-top: 15px;
-        padding: 10px;
+        margin-top: 0;
+        padding: 0;
     }
 
     .events-active {
         background: url("/img/events01.png") no-repeat;
-        height: 52px;
+        height: 30px;
         background-size: contain;
-        margin-top: 15px;
-        padding: 10px;
+        margin-top: 0;
+        padding: 0;
     }
 
     .gallery-active {
         background: url("/img/gallery01.png") no-repeat;
-        height: 52px;
+        height: 30px;
         background-size: contain;
-        margin-top: 15px;
-        padding: 10px;
+        margin-top: 0;
+        padding: 0;
     }
 
     .codex-active {
         background: url("/img/codex01.png") no-repeat;
-        height: 52px;
+        height: 30px;
         background-size: contain;
-        margin-top: 15px;
-        padding: 10px;
+        margin-top: 0;
+        padding: 0;
     }
 
     .forum-active {
         background: url("/img/forum01.png") no-repeat;
-        height: 52px;
+        height: 30px;
         background-size: contain;
-        margin-top: 15px;
-        padding: 10px;
+        margin-top: 0;
+        padding: 0;
     }
 /* Navigation buttons - END */
 
@@ -279,6 +297,17 @@ footer {
     color: #FCD35A;
     background-color: rgba(79, 48, 7, 0.794);
     margin-left: 0;
-    padding-top;
+    padding-top: 0;
     padding: 10px;
 }
+
+::-moz-selection { /* Code for Firefox */
+    color: #edd1a7bd;
+    background: rgba(79, 48, 7, 0.794);
+  }
+  
+  ::selection {
+    color: #edd1a7bd;
+    background: rgba(79, 48, 7, 0.794);
+  }
+
