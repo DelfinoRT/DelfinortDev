@@ -258,12 +258,10 @@ body {
     position: fixed;
     background: url("/img/hamburguerinv.png") no-repeat;
     height: 65px;
+    width:120px;
     top: 0;
     right: 0px;
     display: inline-block;
-    position: relative;
-    width:120px;
-    height: 65px;
     left: 0;
 }
 
@@ -323,3 +321,24 @@ footer {
     background: rgba(79, 48, 7, 0.794);
   }
 
+.readmore {
+    background: url("/img/readmore1.png") no-repeat;
+    display: inline-block;
+    position: relative;
+    width:190px;
+    height: 65px;
+    left: 0;
+    }
+
+.readmore:hover {
+    background: url("/img/readmore2.png") no-repeat;
+    }
+
+.zoomimg {
+    padding-left: 60px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+    }
+.zoomimg:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
