@@ -330,30 +330,32 @@ footer {
 
 .zoomimg {
     padding-left: 60px;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s;
     margin: 0 auto;
     }
 .zoomimg:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.5); 
     }
     
-div.imggallery {
+.imggallery {
     margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
+
+    display: inline-block;
     width: 180px;
 }
       
-div.imggallery:hover {
-    border: 1px solid #777;
+.imggallery:hover {
+  
+    transform: scale(1.1);
+    background-color: bisque;
 }
       
-div.imggallery img {
+.imggallery img {
     width: 100%;
     height: auto;
 }
       
-div.desc {
+.desc {
     padding: 15px;
     text-align: center;
 }
