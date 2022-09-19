@@ -78,6 +78,7 @@ body {
 
 .home:hover {
     background: url("/img/button-home.png") no-repeat;
+    background-size: contain;
 }
 
 .history{
@@ -187,7 +188,7 @@ body {
     }
      
     .history-active {
-        background: url("/img/history01.png") no-repeat;
+        background: url("/img/button-history.png") no-repeat;
         height: 30px;
         background-size: contain;
         margin-top: 0;
@@ -195,7 +196,7 @@ body {
     }
 
     .events-active {
-        background: url("/img/events01.png") no-repeat;
+        background: url("/img/button-events.png") no-repeat;
         height: 30px;
         background-size: contain;
         margin-top: 0;
@@ -203,7 +204,7 @@ body {
     }
 
     .gallery-active {
-        background: url("/img/gallery01.png") no-repeat;
+        background: url("/img/button-gallery.png") no-repeat;
         height: 30px;
         background-size: contain;
         margin-top: 0;
@@ -211,20 +212,13 @@ body {
     }
 
     .codex-active {
-        background: url("/img/codex01.png") no-repeat;
+        background: url("/img/button-codex.png") no-repeat;
         height: 30px;
         background-size: contain;
         margin-top: 0;
         padding: 0;
     }
 
-    .forum-active {
-        background: url("/img/forum01.png") no-repeat;
-        height: 30px;
-        background-size: contain;
-        margin-top: 0;
-        padding: 0;
-    }
 /* Navigation buttons - END */
 
  
@@ -342,3 +336,24 @@ footer {
 .zoomimg:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     }
+    
+div.imggallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+      
+div.imggallery:hover {
+    border: 1px solid #777;
+}
+      
+div.imggallery img {
+    width: 100%;
+    height: auto;
+}
+      
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
