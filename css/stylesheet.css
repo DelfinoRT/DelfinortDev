@@ -3,7 +3,7 @@ html {
   color: rgb(69, 45, 13);
 }
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Signika", sans-serif;
   margin: 0;
   background-image: url(/img/main-background1.png);
   background-repeat: no-repeat;
@@ -13,6 +13,24 @@ body {
   -o-background-size: cover;
   background-size: cover;
   cursor: url("/img/sword.png"), auto;
+  color: rgb(32, 8, 0);
+}
+
+a {
+  color: rgb(99, 28, 4);
+  font-weight: 600;
+}
+a:link {
+  color: rgb(99, 28, 4);
+  font-weight: 600;
+}
+a:visited {
+  color: rgb(126, 45, 17);
+  font-weight: 600;
+}
+a:hover {
+  color: rgb(149, 5, 5);
+  font-weight: 600;
 }
 
 /* Content */
@@ -33,6 +51,7 @@ body {
   border: 3px solid #c7a26afc;
   margin-left: 15px;
   margin-right: 15px;
+  font-size: large;
 }
 
 /* Separator */
@@ -260,7 +279,6 @@ footer {
   background: url("/img/readmore2.png") no-repeat;
 }
 
-
 .imggallery {
   margin: 5px;
   display: inline-block;
@@ -291,7 +309,6 @@ footer {
   width: 100%;
   height: auto;
 }
-
 
 .desc {
   padding: 15px;
@@ -350,11 +367,11 @@ footer {
 }
 
 .responsive {
-    width: 60%;
-    height: auto;
-  }
+  width: 60%;
+  height: auto;
+}
 
-  /* Style the button that is used to open and close the collapsible content */
+/* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: rgb(112, 60, 25);
   color: #ffe6cf;
@@ -369,7 +386,8 @@ footer {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+.active,
+.collapsible:hover {
   background-color: rgb(112, 60, 25);
 }
 
@@ -381,4 +399,3 @@ footer {
   background-color: rgb(255, 251, 248);
   border-radius: 3px;
 }
-
