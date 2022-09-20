@@ -229,7 +229,7 @@ body {
 footer {
   margin: auto;
   text-align: center;
-  color: #fcd35a;
+  color: #f9e9b7;
   background-color: rgba(79, 48, 7, 0.794);
   margin-left: 0;
   padding-top: 0;
@@ -263,7 +263,6 @@ footer {
 
 .imggallery {
   margin: 5px;
-
   display: inline-block;
   width: 180px;
 }
@@ -277,6 +276,22 @@ footer {
   width: 100%;
   height: auto;
 }
+
+.shieldimg {
+  margin: 5px;
+  display: inline-block;
+  width: 80px;
+}
+
+.shieldimg:hover {
+  transform: scale(1.1);
+}
+
+.shieldimg img {
+  width: 100%;
+  height: auto;
+}
+
 
 .desc {
   padding: 15px;
@@ -341,12 +356,13 @@ footer {
 
   /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: #eee;
-  color: #444;
+  background-color: rgb(112, 60, 25);
+  color: #ffe6cf;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
+  border-radius: 3px;
   text-align: left;
   outline: none;
   font-size: 15px;
@@ -354,7 +370,7 @@ footer {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #ccc;
+  background-color: rgb(112, 60, 25);
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -362,5 +378,7 @@ footer {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: rgb(255, 251, 248);
+  border-radius: 3px;
 }
+
