@@ -1,361 +1,340 @@
-html{
-    background-color: rgba(79, 48, 7, 0.794);
-    color: rgb(69, 45, 13);;
+html {
+  background-color: rgba(79, 48, 7, 0.794);
+  color: rgb(69, 45, 13);
 }
 body {
-    font-family: "Lato", sans-serif;
-    margin: 0;
-    background-image: url(/img/main-background1.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    cursor: url('/img/sword.png'),auto;
-}
-
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
- 
-  overflow-x: hidden;
-  transition: 0.3s;
-  padding-top: 10px;
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  background-image: url(/img/main-background1.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  cursor: url("/img/sword.png"), auto;
 }
 
 /* Content */
 
 .welcome {
-    background-color: #caa772bd;
-    padding: 5px;
-    border-radius: 8px;
-    text-align: center;
-    width: 50%;
+  background-color: #caa772bd;
+  padding: 5px;
+  border-radius: 8px;
+  text-align: center;
+  width: 50%;
+  margin-left: 15px;
 }
 
 .content {
-    background-color: #edd1a7bd;
-    padding: 15px;
-    border-radius: 8px;
-    border: 3px solid #c7a26afc;
+  background-color: #edd1a7bd;
+  padding: 15px;
+  border-radius: 8px;
+  border: 3px solid #c7a26afc;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 /* Separator */
 .separator {
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 /* Navigation buttons - START */
-.home{
-    background: url("/img/button-home2.png") no-repeat;
-    height: 30px;
-    background-size: contain;
-    margin-top: 0;
-    padding: 0;
-    border: none;
+.home {
+  background: url("/img/button-home2.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+  border: none;
 }
 
 .home:hover {
-    background: url("/img/button-home.png") no-repeat;
-    background-size: contain;
+  background: url("/img/button-home.png") no-repeat;
+  background-size: contain;
 }
 
-.history{
-    background: url("/img/button-history2.png") no-repeat;
-    height: 30px;
-    background-size: contain;
-    margin-top: 0;
-    padding: 0;
-    border: none;
-  }
+.history {
+  background: url("/img/button-history2.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+  border: none;
+}
 
 .history:hover {
-    background: url("/img/button-history.png") no-repeat;
-    background-size: contain;
-
+  background: url("/img/button-history.png") no-repeat;
+  background-size: contain;
 }
 
-.events{
-    background: url("/img/button-events2.png") no-repeat;
-    height: 30px;
-    background-size: contain;
-    margin-top: 0;
-    padding: 0;
-    border: none;
-  }
+.events {
+  background: url("/img/button-events2.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+  border: none;
+}
 
 .events:hover {
-    background: url("/img/button-events.png") no-repeat;
-    background-size: contain;
+  background: url("/img/button-events.png") no-repeat;
+  background-size: contain;
 }
 
-.gallery{
-    background: url("/img/button-gallery2.png") no-repeat;
-    height: 30px;
-    background-size: contain;
-    margin-top: 0;
-    padding: 0;
-    border: none;
-  }
+.gallery {
+  background: url("/img/button-gallery2.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+  border: none;
+}
 
 .gallery:hover {
-    background: url("/img/button-gallery.png") no-repeat;
-    background-size: contain;
+  background: url("/img/button-gallery.png") no-repeat;
+  background-size: contain;
 }
 
-.codex{
-    background: url("/img/button-codex2.png") no-repeat;
-    height: 30px;
-    background-size: contain;
-    margin-top: 0;
-    padding: 0;
-    border: none;;
-  }
+.codex {
+  background: url("/img/button-codex2.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+  border: none;
+}
 
 .codex:hover {
-    background: url("/img/button-codex.png") no-repeat;
-    background-size: contain;
+  background: url("/img/button-codex.png") no-repeat;
+  background-size: contain;
 }
 
-.forum{
-    background: url("/img/button-forum2.png") no-repeat;
-    height: 30px;
-    background-size: contain;
-    margin-top: 0;
-    padding: 0;
-    border: none;
-  }
+.forum {
+  background: url("/img/button-forum2.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+  border: none;
+}
 
 .forum:hover {
-    background: url("/img/button-forum.png") no-repeat;
-    background-size: contain;
+  background: url("/img/button-forum.png") no-repeat;
+  background-size: contain;
 }
 
-.button-close{
-    background: url("/img/button-close.png") no-repeat;
-    height: 30px;
-    background-size: contain;
-    margin-top: 0;
-    padding: 0;
-    border: none;
+.button-close {
+  background: url("/img/button-close.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+  border: none;
 }
 
-.buttom-top{
-    background: url("/img/button-top.png") no-repeat;
-    height: 30px;
-    background-size: contain;
-    margin-top: 0;
-    padding: 0;
-    border: none;
-  }
+.buttom-top {
+  background: url("/img/button-top.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+  border: none;
+}
 
-.buttom-bottom{
-    background: url("/img/button-bottom.png") no-repeat;
-    height: 30px;
-    background-size: contain;
-    margin-top: 0;
-    padding: 0;
-    border: none;
-  }
-    /* Active Buttons*/
-    .home-active {
-        background: url("/img/button-home.png") no-repeat;
-        height: 30px;
-        background-size: contain;
-        margin-top: 0;
-        padding: 0;
-    }
-     
-    .history-active {
-        background: url("/img/button-history.png") no-repeat;
-        height: 30px;
-        background-size: contain;
-        margin-top: 0;
-        padding: 0;
-    }
+.buttom-bottom {
+  background: url("/img/button-bottom.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+  border: none;
+}
+/* Active Buttons*/
+.home-active {
+  background: url("/img/button-home.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+}
 
-    .events-active {
-        background: url("/img/button-events.png") no-repeat;
-        height: 30px;
-        background-size: contain;
-        margin-top: 0;
-        padding: 0;
-    }
+.history-active {
+  background: url("/img/button-history.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+}
 
-    .gallery-active {
-        background: url("/img/button-gallery.png") no-repeat;
-        height: 30px;
-        background-size: contain;
-        margin-top: 0;
-        padding: 0;
-    }
+.events-active {
+  background: url("/img/button-events.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+}
 
-    .codex-active {
-        background: url("/img/button-codex.png") no-repeat;
-        height: 30px;
-        background-size: contain;
-        margin-top: 0;
-        padding: 0;
-    }
+.gallery-active {
+  background: url("/img/button-gallery.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+}
+
+.codex-active {
+  background: url("/img/button-codex.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+}
 
 /* Navigation buttons - END */
 
- 
-.closebtn {
-  position: absolute;
-  background: url("/img/close.png") no-repeat;
-  height: 40px;
-  top: 2px;
-  right: 0px;
-  left: 7px;
-}
-
-.closebtn:hover {
-    background: url("/img/close2.png") no-repeat;
-}
-
-
 .openbtn {
-    position: fixed;
-    background: url("/img/hamburguer1.png") no-repeat;
-    height: 65px;
-    top: 0;
-    right: 0px;
-    display: inline-block;
-    position: relative;
-    width:120px;
-    height: 65px;
-    left: 0;
-}
-.openbtninv {
-    position: fixed;
-    background: url("/img/hamburguerinv.png") no-repeat;
-    height: 65px;
-    width:120px;
-    top: 0;
-    right: 0px;
-    display: inline-block;
-    left: 0;
+  position: fixed;
+  background: url("/img/hamburguer1.png") no-repeat;
+  top: 0;
+  right: 0px;
+  display: inline-block;
+  position: relative;
+  width: 120px;
+  height: 65px;
+  left: 0;
 }
 
 .openbtn:hover {
-    background: url("/img/hamburguer0.png") no-repeat;
-}
-
-#wrapper {
-    position: fixed;
-    background-color: rgba(79, 48, 7, 0.794);
-    margin: 0;
-    padding: 0;
-    width: 100%;
+  background: url("/img/hamburguer0.png") no-repeat;
 }
 
 .logo {
-    position: relative;
-    background: url("/img/rose-logo.png") no-repeat;
-    height: 65px;
-    top: 2px;
-    right: 0px;
-    display: inline-block;
-    position: relative;
-    width:230px;
-    height: 85px;
-    left: 30%;
-}
-#main {
-  transition: margin-left .5s;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
+  position: relative;
+  background: url("/img/rose-logo.png") no-repeat;
+  height: 85px;
+  display: inline-block;
+  position: relative;
+  left: 35%;
+  margin-bottom: 30px;
+  margin-top: 15px;
 }
 
 footer {
-    margin: auto;
-    text-align: center;
-    color: #FCD35A;
-    background-color: rgba(79, 48, 7, 0.794);
-    margin-left: 0;
-    padding-top: 0;
-    padding: 10px;
+  margin: auto;
+  text-align: center;
+  color: #fcd35a;
+  background-color: rgba(79, 48, 7, 0.794);
+  margin-left: 0;
+  padding-top: 0;
+  padding: 10px;
 }
 
-::-moz-selection { /* Code for Firefox */
-    color: #edd1a7bd;
-    background: rgba(79, 48, 7, 0.794);
-  }
-  
-  ::selection {
-    color: #edd1a7bd;
-    background: rgba(79, 48, 7, 0.794);
-  }
+::-moz-selection {
+  /* Code for Firefox */
+  color: #edd1a7bd;
+  background: rgba(79, 48, 7, 0.794);
+}
+
+::selection {
+  color: #edd1a7bd;
+  background: rgba(79, 48, 7, 0.794);
+}
 
 .readmore {
-    background: url("/img/readmore1.png") no-repeat;
-    display: inline-block;
-    position: relative;
-    width:190px;
-    height: 65px;
-    left: 0;
-    }
+  background: url("/img/readmore1.png") no-repeat;
+  display: inline-block;
+  position: relative;
+  width: 190px;
+  height: 65px;
+  left: 0;
+}
 
 .readmore:hover {
-    background: url("/img/readmore2.png") no-repeat;
-    }
+  background: url("/img/readmore2.png") no-repeat;
+}
 
-.zoomimg {
-    padding-left: 60px;
-    transition: transform .2s;
-    margin: 0 auto;
-    }
-.zoomimg:hover {
-    transform: scale(1.1); 
-    }
-    
+
 .imggallery {
-    margin: 5px;
+  margin: 5px;
 
-    display: inline-block;
-    width: 180px;
+  display: inline-block;
+  width: 180px;
 }
-      
+
 .imggallery:hover {
-  
-    transform: scale(1.1);
-    background-color: bisque;
+  transform: scale(1.1);
+  background-color: bisque;
 }
-      
+
 .imggallery img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-      
+
 .desc {
-    padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
 }
+
+/*  2nd version of navbar   */
+
+.side-navbar {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  transition: 0.5s;
+}
+
+.my-container {
+  transition: 0.4s;
+}
+.active-nav {
+  margin-left: 0;
+}
+/* for main section */
+.active-cont {
+  margin-left: 180px;
+}
+
+.side-navbar {
+  width: 230px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  transition: 0.5s;
+}
+
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 15px;
+}
+
+/* for main section */
+.active-cont {
+  margin-left: 230px;
+}
+
+#menu-btn {
+  margin-left: -62px;
+}
+
+.my-container input {
+  border-radius: 2rem;
+  padding: 2px 20px;
+}
+
+.responsive {
+    width: 60%;
+    height: auto;
+  }
