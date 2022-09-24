@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Red Rose - Events</title>
+    <title>Red Rose - Codex</title>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Signika"
@@ -31,13 +31,16 @@
 
   <body>
     <!-- Side-Nav -->
+    <div class="logo"><img src="/img/rose-logo.png" alt=""></div>
     <div
       class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column"
       id="sidebar"
     >
       <ul class="nav flex-column w-100">
-        <div class="logo" id="logo"></div>
         <li href="#" class="nav-link buttom-top">
+          <span class="mx-2"></span>
+        </li>
+        <li href="#" class="nav-link buttom-empty">
           <span class="mx-2"></span>
         </li>
         <a href="/index.html">
@@ -51,7 +54,7 @@
           </li>
         </a>
         <a href="/events.html">
-          <li class="nav-link events-active">
+          <li class="nav-link events">
             <span class="mx-2"></span>
           </li>
         </a>
@@ -61,7 +64,7 @@
           </li>
         </a>
         <a href="/codex.html">
-          <li class="nav-link codex">
+          <li class="nav-link codex-active">
             <span class="mx-2"></span>
           </li>
         </a>
@@ -70,59 +73,99 @@
             <span class="mx-2"></span>
           </li>
         </a>
+        <li href="#" class="nav-link buttom-empty">
+          <span class="mx-2"></span>
+        </li>
         <li href="#" class="nav-link buttom-bottom">
           <span class="mx-2"></span>
         </li>
       </ul>
+      
     </div>
 
     <!-- Main Wrapper -->
     <div class="p-1 my-container active-cont">
-      <!-- Button Menu -->
-      <div>
-        <nav class="navbar top-navbar px-5">
-          <a class="btn border-0" id="menu-btn"><i class="openbtn"></i></a>
-        </nav>
-      </div>
+
       <!--End Button Menu -->
-      <div class="welcome">
-        <h1>Events!</h1>
-      </div>
-      <br /><br /><br />
-      <div class="content">
-        <h2>What are the Red Rose events?</h2>
-        <p>
-          We are a group/clan of players of Tibia MMORPG, one of the oldest and
-          most successful massively multiplayer online role-playing games
-          (MMORPG) created in Europe. In an MMORPG people from all over the
-          world meet on a virtual playground to explore areas, solve tricky
-          riddles and undertake heroic exploits.
-        </p>
-      </div>
+      <div class="mainwrapper">
+            <div class="box-left"></div>
+            <div class="box-center">
+              <img class="corner-top-left" src="/img/border-corner1.png">
+              <img class="corner-top-right" src="/img/border-corner2.png">
+              <img class="corner-bottom-right" src="/img/border-corner3.png">
+              <img class="corner-bottom-left" src="/img/border-corner4.png">
 
-      <img class="separator" src="/img/separator.png" />
+              <div class="welcome">
+                <h1>Welcome!</h1>
+              </div>
+              <p>
+                fsdfdsfsdf
+              </p>
+              <p>
+                sdfsdfsdfsdf
+              </p>
+              <p>
+                sdfsdfsdf
+              </p>
+              <p>
+                fsdfdsfsdf
+              </p>
+              <p>
+                sdfsdfsdfsdf
+              </p>
+              <p>
+                sdfsdfsdf
+              </p>
+              <img class="separator" src="/img/separator.png" />
 
-      <div class="content">
-        <h2>Extend the Summer! Pool Party Sept/22</h2>
-        <p>
-          Everyone knows that summer is the best time of the year (right?!), and
-          now it's heading towards it's end. Autumn will soon be upon us, and
-          then winter is coming! :o ... unless, we extend *that* summer feeling!
-        </p>
-        <p>
-          The Noviciums of the Red Rose have been tasked to organize and run a
-          Pool Party for special guests and the location chosen is South of
-          Thais, near the Fibula cave entrance.
-        </p>
-        <p>Date: Sept 24th - 2022</p>
-        <img
-          class="responsive"
-          src="/img/events/beach_party_invitation.png"
-          alt=""
-        />
-      </div>
+              <div class="welcome">
+                <h1>Welcome!</h1>
+              </div>
+              <p>
+                fsdfdsfsdf
+              </p>
+              <p>
+                sdfsdfsdfsdf
+              </p>
+              <p>
+                sdfsdfsdf
+              </p>
+              <p>
+                fsdfdsfsdf
+              </p>
+              <p>
+                sdfsdfsdfsdf
+              </p>
+              <p>
+                sdfsdfsdf
+              </p>
+              <img class="separator" src="/img/separator.png" />
 
-      <img class="separator" src="/img/separator.png" />
+              <div class="welcome">
+                <h1>Welcome!</h1>
+              </div>
+              <p>
+                fsdfdsfsdf
+              </p>
+              <p>
+                sdfsdfsdfsdf
+              </p>
+              <p>
+                sdfsdfsdf
+              </p>
+              <p>
+                fsdfdsfsdf
+              </p>
+              <p>
+                sdfsdfsdfsdf
+              </p>
+              <p>
+                sdfsdfsdf
+              </p>
+              <img class="separator" src="/img/separator.png" />
+              
+            </div>
+            <div class="box-right"></div>
     </div>
 
     <footer>
@@ -135,14 +178,5 @@
       crossorigin="anonymous"
     ></script>
 
-    <script>
-      var menu_btn = document.querySelector("#menu-btn");
-      var sidebar = document.querySelector("#sidebar");
-      var container = document.querySelector(".my-container");
-      menu_btn.addEventListener("click", () => {
-        sidebar.classList.toggle("active-nav");
-        container.classList.toggle("active-cont");
-      });
-    </script>
   </body>
 </html>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Red Rose - Gallery</title>
+    <title>Red Rose - Codex</title>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Signika"
@@ -31,13 +31,16 @@
 
   <body>
     <!-- Side-Nav -->
+    <div class="logo"><img src="/img/rose-logo.png" alt=""></div>
     <div
       class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column"
       id="sidebar"
     >
       <ul class="nav flex-column w-100">
-        <div class="logo" id="logo"></div>
         <li href="#" class="nav-link buttom-top">
+          <span class="mx-2"></span>
+        </li>
+        <li href="#" class="nav-link buttom-empty">
           <span class="mx-2"></span>
         </li>
         <a href="/index.html">
@@ -56,12 +59,12 @@
           </li>
         </a>
         <a href="/gallery.html">
-          <li class="nav-link gallery-active">
+          <li class="nav-link gallery">
             <span class="mx-2"></span>
           </li>
         </a>
         <a href="/codex.html">
-          <li class="nav-link codex">
+          <li class="nav-link codex-active">
             <span class="mx-2"></span>
           </li>
         </a>
@@ -70,79 +73,99 @@
             <span class="mx-2"></span>
           </li>
         </a>
+        <li href="#" class="nav-link buttom-empty">
+          <span class="mx-2"></span>
+        </li>
         <li href="#" class="nav-link buttom-bottom">
           <span class="mx-2"></span>
         </li>
       </ul>
+      
     </div>
 
     <!-- Main Wrapper -->
     <div class="p-1 my-container active-cont">
-      <!-- Button Menu -->
-      <div>
-        <nav class="navbar top-navbar px-5">
-          <a class="btn border-0" id="menu-btn"><i class="openbtn"></i></a>
-        </nav>
-      </div>
+
       <!--End Button Menu -->
-      <div class="welcome">
-        <h1>Welcome!</h1>
-      </div>
-      <br /><br /><br />
-      <div class="content">
-        <h2>Screenshot of the month!</h2>
+      <div class="mainwrapper">
+            <div class="box-left"></div>
+            <div class="box-center">
+              <img class="corner-top-left" src="/img/border-corner1.png">
+              <img class="corner-top-right" src="/img/border-corner2.png">
+              <img class="corner-bottom-right" src="/img/border-corner3.png">
+              <img class="corner-bottom-left" src="/img/border-corner4.png">
 
-        <p>
-          Screenshots taken by Roses are chosen monthly to represent what Red
-          Rose stands for and what it means to be part of the guild.
-        </p>
+              <div class="welcome">
+                <h1>Welcome!</h1>
+              </div>
+              <p>
+                fsdfdsfsdf
+              </p>
+              <p>
+                sdfsdfsdfsdf
+              </p>
+              <p>
+                sdfsdfsdf
+              </p>
+              <p>
+                fsdfdsfsdf
+              </p>
+              <p>
+                sdfsdfsdfsdf
+              </p>
+              <p>
+                sdfsdfsdf
+              </p>
+              <img class="separator" src="/img/separator.png" />
 
-        <br /><br /><br />
+              <div class="welcome">
+                <h1>Welcome!</h1>
+              </div>
+              <p>
+                fsdfdsfsdf
+              </p>
+              <p>
+                sdfsdfsdfsdf
+              </p>
+              <p>
+                sdfsdfsdf
+              </p>
+              <p>
+                fsdfdsfsdf
+              </p>
+              <p>
+                sdfsdfsdfsdf
+              </p>
+              <p>
+                sdfsdfsdf
+              </p>
+              <img class="separator" src="/img/separator.png" />
 
-        <div class="imggallery">
-          <a target="_blank" href="img_5terre.jpg">
-            <img src="/img/sotm/2022 - October.webp" />
-          </a>
-          <div class="desc">October/2022</div>
-        </div>
-
-        <div class="imggallery">
-          <a target="_blank" href="img_5terre.jpg">
-            <img src="/img/sotm/2022 - October.webp" />
-          </a>
-          <div class="desc">November/2022</div>
-        </div>
-
-        <div class="imggallery">
-          <a target="_blank" href="img_5terre.jpg">
-            <img src="/img/sotm/2022 - October.webp" />
-          </a>
-          <div class="desc">December/2022</div>
-        </div>
-
-        <div class="imggallery">
-          <a target="_blank" href="img_5terre.jpg">
-            <img src="/img/sotm/2022 - October.webp" />
-          </a>
-          <div class="desc">January/2023</div>
-        </div>
-
-        <div class="imggallery">
-          <a target="_blank" href="img_5terre.jpg">
-            <img src="/img/sotm/2022 - October.webp" />
-          </a>
-          <div class="desc">February/2023</div>
-        </div>
-
-        <div class="imggallery">
-          <a target="_blank" href="img_5terre.jpg">
-            <img src="/img/sotm/2022 - October.webp" />
-          </a>
-          <div class="desc">March/2023</div>
-        </div>
-      </div>
-
-      <img class="separator" src="/img/separator.png" />
+              <div class="welcome">
+                <h1>Welcome!</h1>
+              </div>
+              <p>
+                fsdfdsfsdf
+              </p>
+              <p>
+                sdfsdfsdfsdf
+              </p>
+              <p>
+                sdfsdfsdf
+              </p>
+              <p>
+                fsdfdsfsdf
+              </p>
+              <p>
+                sdfsdfsdfsdf
+              </p>
+              <p>
+                sdfsdfsdf
+              </p>
+              <img class="separator" src="/img/separator.png" />
+              
+            </div>
+            <div class="box-right"></div>
     </div>
 
     <footer>
@@ -155,14 +178,5 @@
       crossorigin="anonymous"
     ></script>
 
-    <script>
-      var menu_btn = document.querySelector("#menu-btn");
-      var sidebar = document.querySelector("#sidebar");
-      var container = document.querySelector(".my-container");
-      menu_btn.addEventListener("click", () => {
-        sidebar.classList.toggle("active-nav");
-        container.classList.toggle("active-cont");
-      });
-    </script>
   </body>
 </html>
