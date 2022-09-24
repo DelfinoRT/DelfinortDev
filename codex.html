@@ -40,6 +40,9 @@
         <li href="#" class="nav-link buttom-top">
           <span class="mx-2"></span>
         </li>
+        <li href="#" class="nav-link buttom-empty">
+          <span class="mx-2"></span>
+        </li>
         <a href="/index.html">
           <li class="nav-link home">
             <span class="mx-2"></span>
@@ -70,6 +73,9 @@
             <span class="mx-2"></span>
           </li>
         </a>
+        <li href="#" class="nav-link buttom-empty">
+          <span class="mx-2"></span>
+        </li>
         <li href="#" class="nav-link buttom-bottom">
           <span class="mx-2"></span>
         </li>
@@ -78,12 +84,7 @@
 
     <!-- Main Wrapper -->
     <div class="p-1 my-container active-cont">
-      <!-- Button Menu -->
-      <div>
-        <nav class="navbar top-navbar px-5">
-          <a class="btn border-0" id="menu-btn"><i class="openbtn"></i></a>
-        </nav>
-      </div>
+
       <!--End Button Menu -->
       <div class="welcome">
         <h1>Welcome!</h1>
@@ -174,14 +175,5 @@
       crossorigin="anonymous"
     ></script>
 
-    <script>
-      var menu_btn = document.querySelector("#menu-btn");
-      var sidebar = document.querySelector("#sidebar");
-      var container = document.querySelector(".my-container");
-      menu_btn.addEventListener("click", () => {
-        sidebar.classList.toggle("active-nav");
-        container.classList.toggle("active-cont");
-      });
-    </script>
   </body>
 </html>

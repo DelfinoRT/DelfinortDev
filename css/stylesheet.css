@@ -167,6 +167,16 @@ a:hover {
   border: none;
 }
 
+.buttom-empty {
+  background: url("/img/button-empty.png") no-repeat;
+  height: 40px;
+  background-size: contain;
+  margin-top: 0;
+  padding: 0;
+  border: none;
+}
+
+
 .buttom-bottom {
   background: url("/img/button-bottom.png") no-repeat;
   height: 40px;
