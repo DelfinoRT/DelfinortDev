@@ -12,7 +12,7 @@ html {
 body {
   font-family: "Signika", sans-serif;
   color: rgb(69, 45, 13);
-  margin-left: 5%;
+  margin-left: 3%;
   margin-right: 10%;
   background-image: url(/img/bckg.jpg);
   background-repeat: no-repeat;
@@ -45,22 +45,24 @@ a:hover {
 .welcome {
   background-color: #6d532abd;
   padding: 5px;
+  color: #f1dab8fa;
   border-radius: 8px;
   text-align: center;
   margin-left: 15px;
   display: inline-block;
   width:70%;
-  margin-top: 220px;
+  margin-top: 80px;
   margin-bottom: 50px;
 }
 
 .content {
   background-color: #edd1a7bd;
   padding: 15px;
+  width: 100%;
   border-radius: 8px;
   border: 3px solid #c7a26afc;
-  margin-left: 15px;
-  margin-right: 15px;
+
+  margin-bottom: 50px;
   font-size: large;
 }
 
@@ -71,7 +73,7 @@ a:hover {
   margin-bottom: 35px;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
 }
 
 /* Navigation buttons - START */
@@ -258,21 +260,27 @@ a:hover {
   position: absolute;
   display: inline-block;
   margin-top: 5px;
-  left: 52%;
+  left: 50%;
 }
 
 .logo img {
   height: 130px;
 }
 
-footer {
-  margin: auto;
+.footer {
+  height: 50px;
+  line-height: 50px;
   text-align: center;
-  color: #f9e9b7;
-  background-color: rgba(79, 48, 7, 0.794);
-  margin-left: 0;
-  padding-top: 0;
-  padding: 10px;
+  background-color: #2a0b0bdb;
+  border: 2px solid #611c1c;
+  border-radius: 8px;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  color: #D6C3A2;
 }
 
 ::-moz-selection {
@@ -338,11 +346,7 @@ footer {
 /*  2nd version of navbar   */
 
 .side-navbar {
-  width: 180px;
-  height: 100%;
   position: fixed;
-  margin-left: -300px;
-  transition: 0.5s;
 }
 
 .my-container {
@@ -364,9 +368,6 @@ footer {
   transition: 0.5s;
 }
 
-.my-container {
-  transition: 0.4s;
-}
 
 .active-nav {
   margin-left: 15px;
@@ -394,11 +395,11 @@ footer {
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: rgb(112, 60, 25);
+  border: 3px solid #c7a26afc;
   color: #ffe6cf;
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border: none;
   border-radius: 3px;
   text-align: left;
   outline: none;
@@ -413,11 +414,15 @@ footer {
 
 /* Style the collapsible content. Note: hidden by default */
 .collapcontent {
-  padding: 0 18px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
   display: none;
   overflow: hidden;
-  background-color: rgb(255, 251, 248);
+  background-color: #f1debc;
   border-radius: 3px;
+  text-align: left;
 }
 
 .mainwrapper {
