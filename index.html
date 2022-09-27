@@ -80,6 +80,10 @@
           <span class="mx-2"></span>
         </li>
       </ul>
+      <br>
+      <button type="button" onclick="loadDoc()">Guild data</button>
+
+      <p class="guild-data" id="demo"></p>
     </div>
     <!-- Side-Nav - End -->
 
@@ -221,6 +225,20 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      function loadDoc() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            document.getElementById("demo").innerHTML = this.responseText;
+          }
+        };
+        xhttp.open("GET", "https://api.tibiadata.com/v3/guild/Red Rose​?field=players_online", true);
+        xhttp.send();
+      }
+      </script>
+
 
   </body>
 </html>

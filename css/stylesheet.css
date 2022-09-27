@@ -507,3 +507,9 @@ span {
   left:0;
   z-index: 3;
 }
+
+.guild-data {
+  background-color: #D6C3A2;
+  padding: 8px;
+  border-radius: 4px;
+}
